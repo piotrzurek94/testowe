@@ -9,5 +9,5 @@ $tekst=file_get_contents($site);
 preg_match ('|href="mailto:(.*)">|U', $tekst, $token)
 or die ("Brak adresu email");
 echo $token[1];
-
+ 
 ?>
